@@ -4,7 +4,7 @@ Simple and lightweight docker image for previewing Elasticsearch, Kibana & Marve
 
 ### Usage
 
-    docker run -d -p 9200:9200 -p 5601:5601 -p 9300:9300 andreipopovici/elasticsearch-kibana-marvel
+    docker run -d -p 9200:9200 -p 5601:5601 -p 9300:9300 popoviciandrei/elasticsearch-kibana-marvel
 
 Then you can:
  * connect to Elasticsearch by [http://localhost:9200](http://localhost:9200)
